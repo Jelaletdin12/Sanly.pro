@@ -1,0 +1,43 @@
+{
+  "name": "django",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.1.0",
+    "animejs": "^3.2.2",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.3",
+    "emailjs-com": "^3.2.0",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "owl.carousel": "^2.3.4",
+    "projector": "^3.1.0",
+    "scrolltrigger": "^1.0.1",
+    "stats-js": "^1.0.1",
+    "stats.js": "^0.17.0",
+    "swiper": "^11.0.7",
+    "three": "^0.162.0",
+    "vue": "^3.3.4",
+    "vue-axios": "^3.5.2",
+    "vue-i18n": "^9.9.1",
+    "vue-router": "^4.2.5",
+    "vue3-toastify": "^0.2.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^18.18.5",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vue/tsconfig": "^0.4.0",
+    "npm-run-all2": "^6.1.1",
+    "typescript": "~5.2.0",
+    "vite": "^4.4.11",
+    "vue-tsc": "^1.8.19"
+  }
+}
