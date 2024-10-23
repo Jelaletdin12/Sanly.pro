@@ -1,8 +1,8 @@
-<script setup lang="ts">
+<script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import { createI18n } from 'vue-i18n';
 import {useI18n}  from "vue-i18n"
-import i18n from '../i18/i18.js';
+import i18n from '../i18n/i18n';
 import { ref } from 'vue';
 import Sidebar from '../components/sidebar.vue'; // Import the Sidebar component
 import Contact from "../components/contact.vue"
