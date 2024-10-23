@@ -2,7 +2,6 @@
 import { RouterLink, RouterView } from 'vue-router'
 import { createI18n } from 'vue-i18n';
 import {useI18n}  from "vue-i18n"
-//import i18n from '../i18n/i18n.js';
 import { ref } from 'vue';
 import Sidebar from '../components/sidebar.vue'; // Import the Sidebar component
 import Contact from "../components/contact.vue"
